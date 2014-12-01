@@ -3,13 +3,13 @@ urxvt.saveline: 2000
 urxvt.transparent: true
 urxvt.inheritPixmap: true
 urxvt.foreground: snow
-urxvt.background: black
+urxvt.background: grey
 urxvt.cursorColor: snow
-urxvt.shading: 20
+urxvt.shading: 5
 urxvt.preeditType: root
 urxvt.scrollBar: off
-urxvt.font: xft:Ricty:size=9.5:antialias=true
-urxvt.boldFont: xft:Ricty:size=9.5:antialias=true
+urxvt.font: xft:Ricty:size=11:antialias=true
+urxvt.boldFont: xft:Ricty:size=11:antialias=true
 urxvt.color0: #6c6c6c
 urxvt.color1: #e9897c
 urxvt.color2: #b6e77d
@@ -20,9 +20,14 @@ urxvt.color6: #c9caec
 urxvt.color7: #f2f2f2
 urxvt.color8: #747474
 urxvt.color9: #f99286
-urxct.color10: #c3f786
-urxct.color11: #fcfbcc
-urxct.color12: #b6defb
-urxct.color13: #fba1fb
-urxct.color14: #d7d9fc
-urxct.color15: #e2e2e2
+urxvt.color10: #c3f786
+urxvt.color11: #fcfbcc
+urxvt.color12: #b6defb
+urxvt.color13: #fba1fb
+urxvt.color14: #d7d9fc
+urxvt.color15: #e2e2e2
+urxvt.perl-ext-common:clipboard
+urxvt.keysym.M-c:perl:clipboard:copy
+urxvt.keysym.M-v:perl:clipboard:paste
+urxvt.keysym.M-v:perl:clipboard:paste_escaped
+
